@@ -144,7 +144,7 @@
 
 스마트 계약의 데이터를 웹앱에 보여주는 모습:
 
-![웹앱의 DPP 인터페이스 예시](./screenshots/dpp_example.png)
+![웹앱의 DPP 인터페이스 예시](screenshoots/dpp_example.png)
 
 
 
