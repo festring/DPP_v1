@@ -147,4 +147,4 @@ This project provides **DPP (Digital Product Passport)** as a web application th
 
 A view of the web app displaying data from the smart contract:
 
-![Example of DPP Interface](screenshots/dpp_example.png)
+![Example of DPP Interface](screenshoots/dpp_example.png)
