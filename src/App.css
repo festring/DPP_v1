@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* app.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: rgba(212, 212, 212, 0.85);
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 500px; /* Adjust the max-width as needed */
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
+  margin: auto; /* Center the box horizontally */
+  margin-top: 100px; /* Adjust the margin-top to center vertically */
+}
+
+.glass-container p {
+  font-weight: bold; /* Make the text bold */
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Add other styles as needed */
+/* app.css */
+/* app.css */
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative; /* 추가 */
+}
+
+.contact-info div {
+  flex: 1; /* 추가 */
+}
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f9c74f;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute; /* 추가 */
+  right: 10px; /* 추가 */
+  top: 50%; /* 추가 */
+  transform: translateY(-50%); /* 추가 */
+}
+
+.button:hover {
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #666; /* 연한 색상으로 조정 */
+  font-weight: normal; /* 볼드체 제거 */
+}
+
+li span {
+  display: block;
+  margin-top: 12px;
+  text-indent: 20px; /* 탭 간격 조절, 필요에 따라 조절하세요 */
+}
