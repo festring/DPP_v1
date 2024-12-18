@@ -148,3 +148,10 @@ This project provides **DPP (Digital Product Passport)** as a web application th
 A view of the web app displaying data from the smart contract:
 
 ![Example of DPP Interface](screenshoots/dpp_example.png)
+
+
+<br><br>
+
+## Acknowledgement
+
+This work is supported by Institute of information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government(MSIT) (No.RS-2022-00155911, Artificial Intelligence Convergence Innovation Human) Resources Development(Kyung Hee University)) 
